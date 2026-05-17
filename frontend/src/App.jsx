@@ -8,6 +8,7 @@ import Tasks from "./pages/Tasks";
 const App = () => {
   return (
     <>
+      <Toaster richColors closeButton position="top-right"/>
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
